@@ -8,37 +8,60 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi everyone! I’m <span className="purple">Soumyajit Behera</span>{" "}
-            from <span className="purple">Bhubaneswar, India</span>.
-            <br />
-            I’m currently working as a{" "}
-            <span className="purple">Software Developer</span> at{" "}
-            <span className="purple">Juspay</span>.
-            <br />I hold an Integrated M.Sc. (IMSc) in{" "}
-            <span className="purple">Mathematics and Computing</span> from{" "}
-            <span className="purple">BIT Mesra</span>.
+            Hi everyone! I’m{" "}
+            <span className="purple">Shashidhar Tellakula</span> from{" "}
+            <span className="purple">Hyderabad, India</span>.
             <br />
             <br />
-            Outside of coding, I love engaging in activities that keep me
-            creative and inspired:
+            I’m currently a{" "}
+            <span className="purple">
+              BTech 4th year Computer Science and Engineering (Cyber Security)
+              student
+            </span>{" "}
+            at{" "}
+            <span className="purple">CVR College of Engineering</span>.
+            <br />
+            <br />
+            I’m passionate about{" "}
+            <span className="purple">Software Development</span> and enjoy
+            building practical applications using technologies such as{" "}
+            <span className="purple">
+              Java, JavaScript, React, Node.js, Express, PostgreSQL, and Git
+            </span>
+            .
+            <br />
+            <br />
+            I also enjoy solving{" "}
+            <span className="purple">Data Structures and Algorithms</span>{" "}
+            problems and continuously improving my problem-solving and
+            programming skills.
+            <br />
+            <br />
+            I’m currently looking for{" "}
+            <span className="purple">internship and software development
+            opportunities</span>{" "}
+            where I can learn, contribute, and grow as a developer.
           </p>
 
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games 🎮
+              <ImPointRight /> Solving DSA and programming problems 🧩
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs ✍️
+              <ImPointRight /> Learning new technologies and building projects 💻
             </li>
             <li className="about-activity">
-              <ImPointRight /> Traveling and Exploring New Places 🌍
+              <ImPointRight /> Exploring new ideas and improving my technical skills 🚀
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Build, learn, improve, and make an impact."
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+
+          <footer className="blockquote-footer">
+            Shashidhar Tellakula
+          </footer>
         </blockquote>
       </Card.Body>
     </Card>

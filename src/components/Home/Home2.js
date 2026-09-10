@@ -12,44 +12,46 @@ function Home2() {
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
+
             <p className="home-about-body">
-              I’m a Software Engineer who loves transforming ideas into
-              reliable, scalable products. Over time, I’ve explored several
-              technologies and found my passion in building high-performance
-              systems and intuitive user experiences.
+              I’m <b className="purple">Shashidhar Tellakula</b>, a Computer Science and
+              Engineering (Cyber Security) student at{" "}
+              <b className="purple">CVR College of Engineering</b>.
               <br />
               <br />
-              I’m proficient in
+              I’m passionate about <b className="purple">Software Development</b> and
+              enjoy building practical applications while continuously improving my
+              problem-solving and programming skills.
+              <br />
+              <br />
+              I’m comfortable working with{" "}
               <i>
                 <b className="purple">
-                  {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
+                  Java, JavaScript, Python, React, Node.js, Express.js, PostgreSQL, and Git
                 </b>
               </i>
-              — and I enjoy working across both backend and frontend stacks.
+              .
               <br />
               <br />
-              My key areas of interest include developing
-              <i>
-                <b className="purple">
-                  {" "}
-                  Web Applications, Blockchain Solutions,{" "}
-                </b>
-              </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
+              I also regularly practice <b className="purple">Data Structures and
+              Algorithms</b> and solve programming problems to strengthen my coding and
+              problem-solving abilities.
               <br />
               <br />
-              Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
-              <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
-              </i>
+              I’m currently focused on growing as a{" "}
+              <b className="purple">Software Developer</b> and looking for opportunities
+              where I can apply my skills, learn from experienced developers, and
+              contribute to real-world projects.
             </p>
           </Col>
+
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img
+                src={myImg}
+                className="img-fluid"
+                alt="avatar"
+              />
             </Tilt>
           </Col>
         </Row>
@@ -57,4 +59,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;
